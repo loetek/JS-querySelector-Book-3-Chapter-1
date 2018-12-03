@@ -7,7 +7,7 @@ const articleHeaderImportantList = document.querySelectorAll(".article__header")
 
 for(let i =0; i < articleHeaderImportantList.length; i+=1){
 
-    articleHeaderImportantList[i].classList.remove("article__header");
+    // articleHeaderImportantList[i].classList.remove("article__header");
     articleHeaderImportantList[i].classList.add("articleHeaderImportant");
     // articleHeaderImportantList[i].classList.replace(".article__header", ".articleHeaderImportant");
 }
